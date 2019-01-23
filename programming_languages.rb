@@ -42,7 +42,7 @@ languages.each do |style, data|
       end
       new_hashes[language][:style] = []
       new_hashes[language][:style] = style 
-      
+      if languages
         
     end
   end
