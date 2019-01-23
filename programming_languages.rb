@@ -35,9 +35,10 @@ def reformat_languages(languages)
 
 new_hash = {}
 languages.each do |style, data|
-  data.each do |key, values|
-    values.each do |k, v|
-      if new_hashes[]
+  data.each do |language, value|
+    values.each do |details, v|
+      if new_hashes[language] != nil 
+        
     end
   end
 end
