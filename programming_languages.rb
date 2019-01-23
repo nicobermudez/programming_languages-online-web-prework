@@ -38,7 +38,9 @@ languages.each do |style, data|
   data.each do |language, value|
     values.each do |details, v|
       if new_hashes[language] = nil
-        new_hashes[language] = 
+        new_hashes[language] = {}
+      end
+      
         
     end
   end
