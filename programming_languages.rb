@@ -39,7 +39,7 @@ new_hash = {}
 languages.each do |style, data|
   data.each do |language, value|
     value.each do |details, v|
-      if new_hash[language].nil>
+      if new_hash[language].nil?
         new_hash[language] = {}
       end
       new_hash[language][:style] = []
