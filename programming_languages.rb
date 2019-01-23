@@ -37,7 +37,7 @@ new_hash = {}
 languages.each do |style, data|
   data.each do |key, values|
     values.each do |k, v|
-      if 
+      if new_hashes[]
     end
   end
 end
