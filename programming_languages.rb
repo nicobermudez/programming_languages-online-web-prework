@@ -44,6 +44,7 @@ languages.each do |style, data|
       new_hash[language][:style] = style 
       if new_hash[language][details].nil?
         new_hash[language][details] = v
+      end
     end
   end
 end
