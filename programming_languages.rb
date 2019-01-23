@@ -41,6 +41,7 @@ languages.each do |style, data|
         new_hashes[language] = {}
       end
       new_hashes[language][:style] = []
+      new_hashes[language][:style] = style 
       
         
     end
