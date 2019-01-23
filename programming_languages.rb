@@ -40,7 +40,7 @@ languages.each do |style, data|
       if new_hashes[language] = nil
         new_hashes[language] = {}
       end
-      new_hashes[language][]
+      new_hashes[language][:style] = data
         
     end
   end
